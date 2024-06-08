@@ -1,0 +1,140 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    margin: 10px;
+    width: 650px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #9a029f;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input, #task-datetime {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    border: none;
+    background: #0a7525;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background: #01c525;
+    color: #000000;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task .task-datetime {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-btn {
+    background: #f6bc10;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background: #ffeb3b;
+    color: #000000;
+}
+
+.delete-btn {
+    background: #9f2420;
+    color: #000000;
+}
+
+.delete-btn:hover {
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.social-links a {
+    color: #555;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #00ebf8;
+}
