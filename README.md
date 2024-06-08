@@ -21,7 +21,7 @@ Provide functionality forsaving taskslocally, allowing usersto revisit their tas
 
 # Output
 web - https://todo-save.netlify.app/ <br>
-web - https://ankushdarade84.github.io/Employee-Team-List-web/
+web - https://ankushdarade84.github.io/To-do-List/
 
 ![image](https://github.com/ankushdarade84/To-do-List/assets/82811718/de082b7d-c814-4db8-ab8b-7a6fb5ceee35)
 
